@@ -1,0 +1,23 @@
+.message {
+    border-radius: 10px;
+    width: 500px;
+    padding: 40px;
+    box-shadow: #cccccc 0 0 30px;
+    font-size: 1.5em;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.iconButton:hover {
+    filter: drop-shadow(0 0 3px #cccccc);
+}

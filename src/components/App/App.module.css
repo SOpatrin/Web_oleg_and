@@ -1,0 +1,11 @@
+.app {
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+}
+
+.message {
+    margin-top: 40px;
+}
