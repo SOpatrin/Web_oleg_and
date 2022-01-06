@@ -9,7 +9,7 @@ function App() {
     const [currentMessage, setCurrentMessage] = useState({});
 
     useEffect(() => {
-        fetch('/oleg.json')
+        fetch('oleg.json')
             .then((response) => response.json())
             .then(setData);
     },[]);
